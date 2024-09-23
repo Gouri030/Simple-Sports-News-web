@@ -1,3 +1,10 @@
 li.nav-item{
   color: white;
+  padding: 5px;
+}
+
+nav.navbar.navbar-expand-sm.bg-dark.justify-content-center.d-none.d-sm-block{
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
 }
