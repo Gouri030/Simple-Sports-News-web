@@ -23,3 +23,9 @@ a.nav-link:hover{
 .navbar-nav .nav-link:hover {
   color: red; /* Change this to your desired hover color */
 }
+.btn.btn-light:hover {
+  border-bottom: 2px solid red;
+}
+button.btn.btn-light:hover {
+  border-bottom: 2px solid red;
+}

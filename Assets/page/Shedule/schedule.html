@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Schedule</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding-top: 30px;
+      min-height: 70px;
+      border-bottom: #77aaff 3px solid;
+    }
+    header h1 {
+      text-align: center;
+      text-transform: uppercase;
+      margin: 0;
+      font-size: 24px;
+    }
+    table {
+      width: 100%;
+      margin: 20px 0;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #333;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sports Schedule</h1>
+  </header>
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Event</th>
+          <th>Location</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2023-10-01</td>
+          <td>Soccer Match</td>
+          <td>Stadium A</td>
+          <td>15:00</td>
+        </tr>
+        <tr>
+          <td>2023-10-05</td>
+          <td>Basketball Game</td>
+          <td>Gym B</td>
+          <td>18:00</td>
+        </tr>
+        <tr>
+          <td>2023-10-10</td>
+          <td>Swimming Competition</td>
+          <td>Pool C</td>
+          <td>10:00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

@@ -13,26 +13,6 @@
   <header>
     <div class="container-fluid p-0">
       <div class="row justify-content-center align-items-center g-2">
-        <div class="col">
-          <nav class="navbar navbar-expand bg-dark justify-content-center d-none d-sm-block" style="height: 10vh;">
-            <ul class="navbar-nav align-items-center justify-content-center">
-              <li class="nav-item">
-                item1
-              </li> 
-              <li class="nav-item">
-                item2
-              </li>
-              <li class="nav-item">
-                item3
-              </li>
-              <li class="nav-item">
-                item4
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-      <div class="row justify-content-center align-items-center g-2">
         <div class="col" style="padding-left: 10vw;">
           <img src="./Assets/images/Logo-for-Website.png" alt="Logo" class="img-fluid" style="height: 90px;" >
         </div>
@@ -45,16 +25,34 @@
     <nav class="navbar navbar-expand bg-light justify-content-center d-sm-none d-md-flex sticky-top">
       <ul class="navbar-nav" style="text-decoration: none; font-family: 'Roboto-Black'; ">
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color: black;">FEATURES<img src="./Assets/images/bxs--up-arrow.png" alt="arrow down" style="transform: rotate(180deg);" height="5px"></a>
+          <div class="dropdown">
+            <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" style="border-bottom: 2px solid transparent;">
+              Features
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#" style="font-family: sans-serif; font-size: small;">HOME</a></li>
+              <li><a class="dropdown-item" href="./Assets/page/Post templates/PostTemp.html" style="font-family: sans-serif; font-size: small;">POST TEMPLATES</a></li>
+              <li><a class="dropdown-item" href="./Assets/page/Typo/Typography.html" style="font-family: sans-serif; font-size: small;">TYPOGRAPHY</a></li>
+            </ul>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color: black;">SPORTSPRESS<img src="./Assets/images/bxs--up-arrow.png" alt="arrow down" style="transform: rotate(180deg);" height="5px"></a>
+          <div class="dropdown">
+            <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+            SPORTSPRESS 
+            </button >
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./Assets/page/Shedule/schedule.html" style="font-family: sans-serif; font-size: small;">SCHEDULE</a></li>
+              <li><a class="dropdown-item" href="./Assets/page/standings/standings.html" style="font-family: sans-serif; font-size: small;">STANDINGS</a></li>
+              <li><a class="dropdown-item" href="./Assets/page/teams/teams.html" style="font-family: sans-serif; font-size: small;">TEAMS</a></li>
+            </ul>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color: black;">SCORES</a>
+          <a class="nav-link" href="./Assets/page/Score/score.html" style="color: black;">SCORES</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color: black;">SHOP</a>
+          <a class="nav-link" href="./Assets/page/shop/shop.html" style="color: black;">SHOP</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" style="color: black;">BUY THEME</a>
@@ -81,7 +79,7 @@
         <div class="col-2 d-md-block d-sm-none">
           ad box 1
         </div>
-        <div class="col-8 d-flex justify-content-center align-items-center" style="text-align: center;">
+        <div class="col-8">
           <div class="row">
             <div class="col-8">
               <div class="card d-block bg-light border-0">
@@ -152,7 +150,7 @@
               </div>
             </div>
             <div class="col-4">
-              <div class="card d-block bg-light">
+              <div class="card d-block bg-light" style="height: 100%;">
                 <div class="card-body">
                   <h3 class="card-title" style="border-bottom: 1px solid rgb(255, 18, 77);">Heading</h3>
                   <p class="card-text">Text</p>
@@ -160,18 +158,67 @@
               </div>
             </div>
           </div>
-        </div>
+            <div class="col-12 mt-3"></div>
+            <div class="card d-block bg-light" style="height: 50vh;">
+              <div class="card-body">
+                <h4 class="card-title" style="border-bottom: 1px solid red;">
+                  SOCCER
+                </h4>
+              <div class="row">
+                <div class="col-3">
+                  <div class="card d-block bg-light" style="height: 50%;">
+                  <img src="./Assets/data/6/OIP.jpeg" class="card-img-top" alt="Image 1">
+                  <div class="card-body">
+                    <h6 class="card-title" style="border-bottom: 1px solid rgb(255, 18, 77);">Pakistan Cricket Board should learn professionalism from BCCI: Kamran Akmal</h6>
+                    <p class="card-text" style="color: grey; font-size: small;">Kamran Akmal wants PCB to learn professionalism from the BCCI
+                      He hails the contribution</p>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="card d-block bg-light" style="height: 50%;">
+                  <img src="./Assets/data/2/OIP.png" class="card-img-top" alt="Image 2">
+                  <div class="card-body">
+                    <h4 class="card-title" style="border-bottom: 1px solid rgb(255, 18, 77);">Heading 2</h4>
+                    <p class="card-text">Text 2</p>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="card d-block bg-light" style="height: 50%;">
+                  <img src="./Assets/data/3/OIP.png" class="card-img-top" alt="Image 3">
+                  <div class="card-body">
+                    <h4 class="card-title" style="border-bottom: 1px solid rgb(255, 18, 77);">Heading 3</h4>
+                    <p class="card-text">Text 3</p>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="card d-block bg-light" style="height: 50%;">
+                  <img src="./Assets/data/4/OIP.png" class="card-img-top" alt="Image 4">
+                  <div class="card-body">
+                    <h4 class="card-title" style="border-bottom: 1px solid rgb(255, 18, 77);">Heading 4</h4>
+                    <p class="card-text">Text 4</p>
+                  </div>
+                  </div>
+                </div>
+                </div>
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
         <div class="col-2 d-sm-none d-md-block">
           ad box 2
         </div>
       </div>
     </div>
-    
   </main>
   <div class="container justify-content-center align-items-center">
-  <footer class="py-3 my-4" style="text-align: center;">
-    <p>&copy; 2024 THE LEAGUE. All rights reserved.</p>
-  </footer>
-</div>
+    <footer class="py-3 my-4" style="text-align: center;">
+      <p>&copy; 2024 THE LEAGUE. All rights reserved.</p>
+    </footer>
+  </div>
 </body>
 </html>
