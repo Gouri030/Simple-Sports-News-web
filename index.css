@@ -29,3 +29,9 @@ a.nav-link:hover{
 button.btn.btn-light:hover {
   border-bottom: 2px solid red;
 }
+body {
+  background-image: url('./Assets/images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
