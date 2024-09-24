@@ -1,0 +1,25 @@
+li.nav-item{
+  color: white;
+  padding: 5px;
+}
+
+nav.navbar.navbar-expand-sm.bg-dark.justify-content-center.d-none.d-sm-block{
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face{
+  font-family: 'Roboto-Black';
+  src: url('./Assets/fonts/Roboto-Black.ttf') format('truetype');
+}
+
+a.nav-link:hover{
+  border-bottom: 2px solid rgb(255, 24, 31);
+}
+.navbar-nav .nav-link:hover {
+  color: red; /* Change this to your desired hover color */
+}
