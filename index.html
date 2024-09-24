@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>THE LEAGUE</title>
+  <title>SPORTSTV</title>
+  <link rel="icon" href="./Assets/images/sportsfavicon.png" type="png">
   <link rel="stylesheet" href="./index.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -17,7 +18,7 @@
             <ul class="navbar-nav align-items-center justify-content-center">
               <li class="nav-item">
                 item1
-              </li>
+              </li> 
               <li class="nav-item">
                 item2
               </li>
@@ -33,7 +34,7 @@
       </div>
       <div class="row justify-content-center align-items-center g-2">
         <div class="col pt-3">
-          <img src="./Assets/logo.png" alt="Logo" class="img-fluid" style="height: 40px;">
+          <img src="./Assets/images/Logo-for-Website.png" alt="Logo" class="img-fluid" style="height: 100px;" >
         </div>
       <br>
       </div>
@@ -41,60 +42,129 @@
     </div>
 
       
-    <nav class="navbar navbar-expand-sm bg-light justify-content-center">
-      <ul class="navbar-nav">
+    <nav class="navbar navbar-expand bg-light justify-content-center d-sm-none d-md-flex sticky-top">
+      <ul class="navbar-nav" style="text-decoration: none; font-family: 'Roboto-Black'; ">
         <li class="nav-item">
-          <a class="nav-link" href="#">FEATURES<img src="./Assets/bxs--up-arrow.png" alt="arrow down" style="transform: rotate(180deg);" height="5px"></a>
+          <a class="nav-link" href="#" style="color: black;">FEATURES<img src="./Assets/images/bxs--up-arrow.png" alt="arrow down" style="transform: rotate(180deg);" height="5px"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">SPORTSPRESS<img src="./Assets/bxs--up-arrow.png" alt="arrow down" style="transform: rotate(180deg);" height="5px"></a>
+          <a class="nav-link" href="#" style="color: black;">SPORTSPRESS<img src="./Assets/images/bxs--up-arrow.png" alt="arrow down" style="transform: rotate(180deg);" height="5px"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">SCORES</a>
+          <a class="nav-link" href="#" style="color: black;">SCORES</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">SHOP</a>
+          <a class="nav-link" href="#" style="color: black;">SHOP</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">BUY THEME</a>
+          <a class="nav-link" href="#" style="color: black;">BUY THEME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">FOOTBALL</a>
+          <a class="nav-link" href="#" style="color: black;">FOOTBALL</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">BASEBALL</a>
+          <a class="nav-link" href="#" style="color: black;">BASEBALL</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">SOCCER</a>
+          <a class="nav-link" href="#" style="color: black;">SOCCER</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">MORE <img src="./Assets/bxs--up-arrow.png" alt="arrow down" style="transform: rotate(180deg);" height="5px"> </a>
+          <a class="nav-link" href="#" style="color: black;">MORE <img src="./Assets/images/bxs--up-arrow.png" alt="arrow down" style="transform: rotate(180deg);" height="5px"> </a>
         </li>
       </ul>
     </nav>
   </div>
   </header>
   <main>
-    <div
-      class="container"
-    >
-      <div
-        class="col-2  d-none d-sm-block"
-      >
-        ad box 1
+    <div class="container" style="width: 100%;">
+      <div class="row">
+        <div class="col-2 d-md-block d-sm-none">
+          ad box 1
+        </div>
+        <div class="col-8 d-flex justify-content-center align-items-center" style="text-align: center;">
+          <div class="row">
+            <div class="col-8">
+              <div class="card d-block bg-light border-0">
+                <div class="card-body" style="width: 100%;">
+                  <div id="HomeCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-bs-target="#HomeCarousel" data-bs-slide-to="0" class="active"></li>
+                      <li data-bs-target="#HomeCarousel" data-bs-slide-to="1"></li>
+                      <li data-bs-target="#HomeCarousel" data-bs-slide-to="2"></li>
+                      <li data-bs-target="#HomeCarousel" data-bs-slide-to="3"></li>
+                      <li data-bs-target="#HomeCarousel" data-bs-slide-to="4"></li>
+                    </ol>
+                
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                
+                      <div class="carousel-item active">
+                        <img src="./Assets/data/1/rafael-nadal-07460542-16x9_0.webp" alt="1" style="width:100%;">
+                        <div class="carousel-caption">
+                          <h3>Rafael Nadal in Spain squad for Davis Cup quarterfinals alongside Carlos Alcaraz</h3>
+                        </div>
+                      </div>
+                
+                      <div class="carousel-item">
+                        <img src="./Assets/data/2/OIP.png" alt="2" style="width:100%;">
+                        <div class="carousel-caption">
+                          <h3>On This Day: India become inaugural T20 World Cup champions by beating Pakistan
+                          </h3>
+                        </div>
+                      </div>
+                    
+                      <div class="carousel-item">
+                        <img src="./Assets/data/3/OIP.png" alt="3" style="width:100%;" >
+                        <div class="carousel-caption">
+                          <h3>'Nadalcaraz' reunion in Davis Cup quarters? Spain captain David Ferrer reacts
+                          </h3>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./Assets/data/4/OIP.png" alt="4" style="width:100%;">
+                        <div class="carousel-caption">
+                          <h3>Late goals and surprises: Is ISL 2024 the season for the underdogs?
+                          </h3>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./Assets/data/5/OIP.jpg" alt="5" style="width:100%;"  >
+                        <div class="carousel-caption">
+                          <h3>R Ashwin recalls age banter with Rohit Sharma after wife's hilarious question
+                          </h3>
+                        </div>
+                      </div>
+                  
+                    </div>
+                
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#HomeCarousel" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#HomeCarousel" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card d-block bg-light">
+                <div class="card-body">
+                  <h3 class="card-title" style="border-bottom: 1px solid rgb(255, 18, 77);">Heading</h3>
+                  <p class="card-text">Text</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 d-sm-none d-md-block">
+          ad box 2
+        </div>
       </div>
-      <div
-        class="col-8 d-flex justify-content-center align-items-center"
-        style="text-align: center;"
-        >
-      body
-      </div>
-      <div
-        class="col-2 d-none d-sm-block"
-      >
-        ad box 2
-      </div>
-      
     </div>
     
   </main>
